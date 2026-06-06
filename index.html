@@ -10,7 +10,7 @@
     <h1>Ejercicio 1: Clip de vídeo incrustado en HTML 5</h1>
 
     <h2>Tarea 1.2</h2>
-    
+
     <p>A continuación se presenta el clip de vídeo codificado, insertado mediante el tag HTML5 de video con dos tags
         de source para garantizar la compatibilidad con la mayoría de los navegadores modernos.
         También se ha incluido un texto de ayuda visible en los navegadores que no soporten la reproducción.</p>
@@ -18,7 +18,18 @@
     <video controls>
         <source src="videos/clipWeb.mp4" type="video/mp4">
         <source src="videos/clipWeb.webm" type="video/webm">
-        Tu navegador no soporta la reproducción de vídeo en HTML5. Puedes descargar el vídeo en los siguientes enlaces: 
+        Tu navegador no soporta la reproducción de vídeo en HTML5. Puedes descargar el vídeo en los siguientes enlaces:
+        <a href="videos/clipWeb.mp4">MP4</a> o <a href="videos/clipWeb.webm">WebM</a>.
+    </video>
+
+    <h2>Tarea 1.4</h2>
+
+    <p>A continuación añado funcionalidad al vídeo mediante los diferentes atributos que el tag de video de HTML5 ofrece.</p>
+
+    <video controls autoplay muted loop poster="imgs/clipBird.jpg" preload="metadata">
+        <source src="videos/clipWeb.mp4" type="video/mp4">
+        <source src="videos/clipWeb.webm" type="video/webm">
+        Tu navegador no soporta la reproducción de vídeo en HTML5. Puedes descargar el vídeo en los siguientes enlaces:
         <a href="videos/clipWeb.mp4">MP4</a> o <a href="videos/clipWeb.webm">WebM</a>.
     </video>
 
